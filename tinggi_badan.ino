@@ -3,7 +3,7 @@
 #define trigPin 22
 #define echoPin 23
 LiquidCrystal_I2C lcd(0x27 ,16,2);
-int jarak = 10;
+int jarak = 200;
 int tinggi;
 void setup() {
   pinMode(trigPin, OUTPUT);
